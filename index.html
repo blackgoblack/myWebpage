@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Klaudia Dziwoń</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,latin-ext'>
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&subset=latin,latin-ext'>
+		<link rel="stylesheet" href="unslider.css">
+		<link rel="stylesheet" href="unslider-dots.css">
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="//stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
+		<script src="//stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+		<script src="jquery-1.9.1.min.js"></script>
+		<script src="unslider-master/src/js/unslider.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <header>
+			<nav>
+				<a href="#about">About</a>
+				<a href="#projects">Projects</a>
+				<a href="#interests">Interests</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<div class="top">
+				<h1>Klaudia Dziwon</h1>
+				<h2>Portfolio</h2>
+			</div>
+			<center><a class="pointer" href="#quote"><img src="download.png" height=80 width=80></a></center>
+        </header>
+		<section id="quote">
+			<h2>"Don't expect anything if you don't work for it"</h2>
+		</section>
+        <section id ="about">
+			<div class="text">
+				<h2>About</h2>
+				<a id="girl"><img src="3.png"></a>
+				<p>My name is Klaudia.</p>
+				<p>I am a student of Computer Science at Jagiellonian University in Cracow.</p>
+				<p>I would like to work in IT and become a professional developer.</p>
+			</div>
+		</section>
+		<section id="interests">
+			<h2>Know me better</h2>
+			<center> <div class="my-slider">
+						<ul>
+							<li><img src="12.jpg" height="200" width="200"><p>I am a coffee lover</p></li>
+							<li><img src="9.jpg" height="200" width="200"><p>On my bucket list is traveling all around the world</p></li>
+							<li><img src="14.jpg" height="200" width="200"><p> I am overly addicted to books <3</p></li>
+							<li><img src="10.jpg" height="200" width="200"><p>A good day starts with a peanut butter!</p></li>
+							<li><img src="8.jpg" height="200" width="200"><p>Everything around me must be perfectly organized...</p></li>
+							<li><img src="11.jpg" height="200" width="200"><p>...and I love to pay attention to details</p></li>
+						</ul>
+					</div>
+			</center>
+        </section>
+		<section id="projects">
+			<div class="content">
+				<h2>Simple ToDo List</h2>
+				<h3>Add items to a checklist and remove (just click on them) as they're checked off</h3>
+				<center><div class="put">
+							<form name="todo">
+								<input type="text" name="todoItem" value="Write something here!" onblur="if(this.value=='')this.value='Write something here!';" onfocus="if(this.value!='')this.value='';"/>
+							</form>
+							<button>Add!</button><button id="remove">Remove all!</button>
+							<br/>
+							<div class="list"></div>
+				</center></div>
+			</div>
+		<section id="quote">
+			<h2>"Dream hard, work harder"</h2>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<center>
+			<div class="labels">
+				<label>Name:</label>
+				<input type="text">
+				<label>Email:</label>
+				<input type="text">
+				<label>Message:</label>
+				<textarea type="text" rows="3"></textarea>
+				<button>Send</button>
+			</div>
+			</center>
+			
+		</section>
+        <footer>©2016 All Rights Reserved - Klaudia Dziwoń</footer>
+		<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    </body>
+</html>

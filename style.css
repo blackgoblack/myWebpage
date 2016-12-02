@@ -1,0 +1,283 @@
+* {box-sizing: border-box;}
+body {
+	background-color: #ffffff;
+    font-family: 'Comfortaa', sans-serif;	
+    margin: 0;
+}
+
+header {
+	background-image: url('work.jpg');
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+nav{
+	text-align: right;
+	padding: 15px;
+}
+nav a {
+	font-family: 'Comfortaa', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px;
+	text-shadow: 2px 2px 5px #000;
+	position: relative;
+}
+nav a:after{
+  content: '';
+  height: 1px; 
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 0%;
+  background: #ffffff; 
+  transition: 0.9s; 
+}
+nav a:hover:after{
+  width: 100%;
+}
+.pointer{
+	position: absolute;
+}
+.top {
+	padding: 95px;
+	line-height: 30px;
+}
+.top h1, h2, .text h2{
+	text-align: center;	
+	font-family:  'Bilbo Swash Caps', sans-serif;
+	text-shadow: 2px 2px 5px #000;
+	color: #ffffff;
+}
+h1 {
+	font-size: 100px;
+}
+h2 {
+	font-size: 60px;
+}
+.pointer a:hover{
+	cursor: pointer;
+}
+#quote{
+	height: 200px;
+	background-color: #ffffff;
+}
+#about{
+	height: 500px;
+    background-image: url('2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#quote h2{
+	color: #363636;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: none;
+	padding-top: 30px;
+}
+.text{
+	height: 500px;
+	background-color:#000000;
+    opacity: 0.8;
+	color: #ffffff;
+}
+.text h2{
+	padding: 10px;
+}
+#girl{
+	float: left;
+	margin-left: 20px;
+}
+.text p{
+	text-align: justify;
+	vertical-align: top;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Comfortaa', sans-serif;
+	padding-left: 30%;
+}
+#interests{
+	height: 500px;
+	background-color: #ffffff;
+}
+#interests h2{
+	color: #e9e9e9;
+}
+#projects {
+	height: 500px;
+	background-image: url('x.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.put form {
+    display: inline-block;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+	color: #363636;
+	width: 550px;
+}
+
+.put button{
+    display: inline-block;
+    height:px;
+	width:150px;
+	background-color:#363636;
+	font-weight:bold;
+	color:#fff);
+	text-align:center;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 5);
+}
+.content{
+	height: 500px;
+	background-color:#000000;
+    opacity: 0.3;
+	color: #ffffff;
+}
+.content h2{
+	padding-top: 15px;
+}
+.content h3{
+	 font-family: 'Comfortaa', sans-serif;
+	 text-align: center;
+}
+.list:hover{
+	cursor: pointer;
+}
+
+#jmagic{
+	height: 500px;
+	background-color: #ffffff;
+}
+#jmagic h2{
+	color: #e9e9e9;
+}
+#contact {
+	background-color: #363636;
+	height: 500px;
+	color:#fff;
+		
+}
+#contact h2{
+	padding: 20px;
+}
+
+input, textarea {
+	display: block;
+	width: 60%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    resize: none;
+	background-color: #fff;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+button:active, textarea:focus, input:focus {
+	box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.5);
+}
+button {
+	border: 2px solid #fff; 
+	background: transparent;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-weight: 700;
+}
+
+footer {
+	text-align: center;
+	background-color: #363636;
+	color: #ffffff;
+    font-family: 'Comfortaa', sans-serif;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 5px #000;
+}
+
+
+@media (min-width: 801px) and (max-width: 1068px) {
+.top h1{
+	font-size: 90px;
+	text-align: center;
+	line-height: 50px;
+}
+#about p{
+	font-size: 20px;
+	text-align: left;
+	padding: 5px 10px 2px;
+}
+
+}
+
+@media (max-width: 600px) {
+nav a{
+	display:block;
+	text-align: center;
+	font-size: 25px;
+}
+
+.top h2{
+	font-size: 40px;
+	text-align: center;
+}
+.top h1{
+	font-size: 55px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 2px;
+}
+.pointer{
+	display: none;
+}
+#quote h2 {
+	font-size: 38px;
+	height: 250px;
+}
+#about{
+	height: 620px;
+}
+.text {
+	height: 620px;
+}
+#about p{
+	display: block;
+	font-size: 16px;
+	padding: 5px 15px 2px;
+	text-align: center;
+}
+.content{
+	height: 600px;
+}
+#projects{
+	height: 600px;
+}
+.put form{
+	width: 90%;
+}
+.put button:{
+	display: block;
+}
+footer{
+	font-size: 13px;
+}
+
+}
+@media (min-width: 601px) and (max-width: 800px) {
+.top h1{
+	font-size: 65px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 5px;
+}
+.pointer{
+	margin-left: 10px;
+}
+#about p{
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 10px 2px;
+}
+}
+
